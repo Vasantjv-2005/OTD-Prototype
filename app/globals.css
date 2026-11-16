@@ -58,6 +58,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .wrap { width: min(1240px, calc(100% - 80px)); margin-inline: auto; }
 .site-header { height: 82px; padding: 0 max(40px, calc((100vw - 1370px) / 2)); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(217,209,198,.75); background: var(--otd-ivory); position: relative; z-index: 5; }
 .brand { display: inline-flex; align-items: center; gap: 9px; font-size: 18px; font-weight: 600; letter-spacing: .09em; line-height: 1; }
+.brand-logo-img { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; border: 1px solid var(--otd-ink); background: #f7f4ee; display: block; flex-shrink: 0; }
 .brand-mark { display: grid; place-items: center; width: 31px; height: 31px; border: 1px solid var(--otd-ink); border-radius: 50%; font-family: Georgia,serif; font-size: 19px; font-weight: 400; letter-spacing: 0; }
 .brand small { display: block; margin-top: 5px; font-size: 7px; letter-spacing: .2em; font-weight: 500; }
 .desktop-nav { display: flex; gap: clamp(17px,2vw,32px); align-items: center; }

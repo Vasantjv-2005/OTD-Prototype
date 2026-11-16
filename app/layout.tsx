@@ -3,24 +3,19 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'OTD — Own The Day',
+  title: 'OTD — Own The Day | A Personal Style Companion',
   description: 'Your style. Every place. A personal fashion companion that styles what you already own for where life takes you.',
   generator: 'OTD',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: '/apple-icon.png',
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/favicon.ico',
       },
     ],
+    shortcut: '/apple-icon.png',
     apple: '/apple-icon.png',
   },
 }

@@ -113,6 +113,13 @@ export function AuthView({ pathname, heading, onUserChange, announce }: AuthProp
   if (pathname === "/forgot-password") {
     return (
       <div className="auth-panel">
+        <div style={{ textAlign: "center", marginBottom: 18 }}>
+          <img
+            src="/apple-icon.png"
+            alt="OTD"
+            style={{ width: 64, height: 64, borderRadius: "50%", objectFit: "cover", margin: "0 auto", border: "1px solid #C6AC83", display: "block" }}
+          />
+        </div>
         <p className="eyebrow">ACCOUNT RECOVERY</p>
         <h2>Reset your password</h2>
         {resetSent ? (
@@ -155,6 +162,13 @@ export function AuthView({ pathname, heading, onUserChange, announce }: AuthProp
   if (pathname === "/register") {
     return (
       <div className="auth-panel">
+        <div style={{ textAlign: "center", marginBottom: 18 }}>
+          <img
+            src="/apple-icon.png"
+            alt="OTD"
+            style={{ width: 68, height: 68, borderRadius: "50%", objectFit: "cover", margin: "0 auto", border: "1px solid #C6AC83", display: "block" }}
+          />
+        </div>
         <p className="eyebrow">JOIN OWN THE DAY</p>
         <h2>{heading || "Make room for better mornings."}</h2>
         <p style={{ color: "#716960", fontSize: 12, lineHeight: 1.6, marginBottom: 18 }}>
@@ -239,6 +253,13 @@ export function AuthView({ pathname, heading, onUserChange, announce }: AuthProp
   // Login view
   return (
     <div className="auth-panel">
+      <div style={{ textAlign: "center", marginBottom: 18 }}>
+        <img
+          src="/apple-icon.png"
+          alt="OTD"
+          style={{ width: 68, height: 68, borderRadius: "50%", objectFit: "cover", margin: "0 auto", border: "1px solid #C6AC83", display: "block" }}
+        />
+      </div>
       <p className="eyebrow">YOUR PERSONAL STYLE SPACE</p>
       <h2>{heading || "Welcome back."}</h2>
 

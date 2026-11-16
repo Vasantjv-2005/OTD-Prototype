@@ -210,7 +210,12 @@ export function OtdApp() {
       {/* Header */}
       <header className="site-header">
         <Link href="/" aria-label="OTD home" className="brand">
-          <span className="brand-mark">O</span>
+          <img
+            src="/apple-icon.png"
+            alt="OTD"
+            className="brand-logo-img"
+            style={{ width: 34, height: 34, borderRadius: "50%", objectFit: "cover", border: "1px solid var(--otd-ink)", background: "#F7F4EE" }}
+          />
           <span>
             OTD<small>OWN THE DAY</small>
           </span>
@@ -379,8 +384,13 @@ export function OtdApp() {
                   <span>01 / EVERYDAY, ELEVATED</span>
                   <span>YOUR STYLE, EVERY PLACE</span>
                 </div>
-                <div className="image-stamp">
-                  <Sparkles size={14} /> Styled around you
+                <div className="image-stamp" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  <img
+                    src="/apple-icon.png"
+                    alt="OTD"
+                    style={{ width: 22, height: 22, borderRadius: "50%", objectFit: "cover", border: "1px solid #C6AC83" }}
+                  />
+                  <span>Styled around you</span>
                 </div>
               </div>
               <div className="hero-index">
@@ -482,7 +492,12 @@ export function OtdApp() {
             </section>
 
             <section className="quote-band">
-              <p className="eyebrow">THE OTD POINT OF VIEW</p>
+              <img
+                src="/apple-icon.png"
+                alt="OTD Opportunity Emblem"
+                style={{ width: 68, height: 68, borderRadius: "50%", objectFit: "cover", margin: "0 auto 16px", border: "2px solid #C6AC83", display: "block", background: "#F7F4EE" }}
+              />
+              <p className="eyebrow">THE OTD OPPORTUNITY</p>
               <blockquote>
                 “The best new thing in your wardrobe
                 <br />
@@ -974,7 +989,12 @@ function Footer() {
     <footer className="site-footer">
       <div className="footer-top">
         <Link href="/" className="brand">
-          <span className="brand-mark">O</span>
+          <img
+            src="/apple-icon.png"
+            alt="OTD"
+            className="brand-logo-img"
+            style={{ width: 34, height: 34, borderRadius: "50%", objectFit: "cover", border: "1px solid var(--otd-ink)", background: "#F7F4EE" }}
+          />
           <span>
             OTD<small>OWN THE DAY</small>
           </span>
